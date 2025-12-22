@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         textView.setOnClickListener(v -> {
-            Animation animation = AnimationUtils.loadAnimation(this, R.anim.rotate);
+            Animation animation = AnimationUtils.loadAnimation(this, R.anim.scale);
             textView.startAnimation(animation);
         });
     }
