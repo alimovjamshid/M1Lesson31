@@ -27,6 +27,12 @@ public class MainActivity extends AppCompatActivity {
         });
         textView = findViewById(R.id.tv);
 
+
+
+
+
+
+
         textView.setOnClickListener(v -> {
             Animation animation = AnimationUtils.loadAnimation(this, R.anim.rotate);
             textView.startAnimation(animation);
