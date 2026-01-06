@@ -96,6 +96,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 b = false;
             }
             animation1.setAnimationListener(this);
+            //
         }
     }
         @Override
